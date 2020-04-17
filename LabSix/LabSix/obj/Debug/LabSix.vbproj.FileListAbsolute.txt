@@ -1,0 +1,15 @@
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\bin\Debug\LabSix.exe.config
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\bin\Debug\LabSix.exe
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\bin\Debug\LabSix.pdb
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\bin\Debug\LabSix.xml
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.vbprojAssemblyReference.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.frmCarInventory.resources
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.Resources.resources
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.vbproj.GenerateResource.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.vbproj.CoreCompileInputs.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.exe
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.xml
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.pdb
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.AverageUnitsShipped.resources
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.TextEditor.resources
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 6\LabSix\LabSix\obj\Debug\LabSix.frmMain.resources

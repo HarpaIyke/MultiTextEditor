@@ -1,0 +1,362 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LabSix
+</name>
+</assembly>
+<members>
+<member name="T:LabSix.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.car">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.cut1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.notepad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabSix.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:LabSix.Car.#ctor">
+ <summary>
+ Default constructor: Increments the car count and sets the ID number
+ </summary>
+</member>
+<member name="M:LabSix.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Sets all private variables based on arguments passed in
+ </summary>
+ <param name="makeValue">A car's manufacturer</param>
+ <param name="modelValue">A car's model</param>
+ <param name="yearValue">The year a car was manufactured</param>
+ <param name="priceValue">A car's price</param>
+ <param name="newValue">True if a car is new, false if not</param>
+</member>
+<member name="P:LabSix.Car.Count">
+ <summary>
+ Returns the number of car objects
+ </summary>
+ <returns>The number of car objects</returns>
+</member>
+<member name="P:LabSix.Car.IdentificationNumber">
+ <summary>
+ Returns a cars unique identification number
+ </summary>
+ <returns>An integer specifying this car</returns>
+</member>
+<member name="P:LabSix.Car.Make">
+ <summary>
+ Gets and sets a car's manufacturer
+ </summary>
+ <returns>A car's manufacturer</returns>
+</member>
+<member name="P:LabSix.Car.Model">
+ <summary>
+ Gets and sets a car's model
+ </summary>
+ <returns>A car's model</returns>
+</member>
+<member name="P:LabSix.Car.Year">
+ <summary>
+ Gets and sets a car's year of manufacture
+ </summary>
+ <returns>A car's year of manufacture</returns>
+</member>
+<member name="P:LabSix.Car.Price">
+ <summary>
+ Gets and sets a car's price
+ </summary>
+ <returns>A car's price</returns>
+</member>
+<member name="P:LabSix.Car.IsNew">
+ <summary>
+ Gets and sets a flag indicating whether the car is new or not
+ </summary>
+ <returns>True if the car is new, false if not</returns>
+</member>
+<member name="M:LabSix.Car.GetCarData">
+ <summary>
+ Returns a string describing the car
+ </summary>
+ <returns>A string decribing the car</returns>
+</member>
+<member name="M:LabSix.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Add the entered data into the listview if it's valid
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Set everything except the listview to it's default state
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:LabSix.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the form
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.lvwCars_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Makes sure the user can't check the box in the listview
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ If the user selects an item in the listview fill the appropriate controls with the relevant information
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.IsValidInput">
+ <summary>
+ Validate the input
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.PopulateList">
+ <summary>
+ Clear and then re-populate the list
+ </summary>
+</member>
+<member name="M:LabSix.frmCarInventory.Reset">
+ <summary>
+ Set everything except the listview to it's default state
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.frmAverageUnitsShipped_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the form loads, initialize the arrays
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ When btnEnter is clicked receive and validate input, then output it into the appropriate control
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exit the form when btnExit is pressed
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Call the Reset() sub procedure when btnReset is pressed
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.Reset">
+ <summary>
+ Reset the form
+ </summary>
+</member>
+<member name="M:LabSix.AverageUnitsShipped.ClearControls(System.Windows.Forms.Control[])">
+ <summary>
+ Use a For Each loop to clear controls
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.FileExit">
+ <summary>
+ Exit the application
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.FileNew">
+ <summary>
+ Create a new file
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.FileOpen">
+ <summary>
+ Open an existing file
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.FileSaveAs">
+ <summary>
+ Save a copy of the file
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.FileSave">
+ <summary>
+ Save the current file
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.txtTextEditor_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Checks to see if the text has changed
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.SaveFile(System.String)">
+ <summary>
+ Save the file
+ </summary>
+ <param name="path">The save file path</param>
+</member>
+<member name="M:LabSix.TextEditor.CopyText">
+ <summary>
+ Copy the text that the user selected
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.CutText">
+ <summary>
+ Cut the text that the user selected
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.PasteText">
+ <summary>
+ Paste the copied text where the user chooses
+ </summary>
+</member>
+<member name="M:LabSix.TextEditor.ConfirmClose">
+ <summary>
+ Make sure the user is okay with closing the current file
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.btnToolStripTextEditor_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the text editor form
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.btnToolStripCarInventory_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the car inventory form
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.btnToolStripAverageUnitsShipped_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the average units shipped form
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuFileSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save the current file in the text editor
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuFileSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save the current file in the text editor as something
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuFileNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Clear the window and treat it as a new file
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuFileOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open a new file in the text editor
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuFileExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the active window, if there are none close the application
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cut the selected text in the text editor
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ Copy the selected text in the text editor
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Paste the copied text in the text editor
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuHelpAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Show information about the creation of this application
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuWindowCascade_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cascade the opened windows
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuWindowTileHorizontally_Click(System.Object,System.EventArgs)">
+ <summary>
+ Place the opened windows side by side horizontally
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuWindowTileVertically_Click(System.Object,System.EventArgs)">
+ <summary>
+ Place the opened windows side by side vertically
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuHideToolbar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Hide the toolbar
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuShowToolbar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Show the toolbar
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuWindowTextEditor_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the text editor through the toolbar
+ </summary>
+</member>
+<member name="M:LabSix.frmMain.mnuWindowCarInventory_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the car inventory through the toolbar
+ </summary>
+</member>
+</members>
+</doc>
